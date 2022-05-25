@@ -1,0 +1,35 @@
+.Profile-container {
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile-avatar {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.Profile-container > ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+
+
+.Profile-container > ul > li {
+  display: flex;
+  justify-content: space-between;
+}
+.Profile-container > ul > li > span {
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+}
